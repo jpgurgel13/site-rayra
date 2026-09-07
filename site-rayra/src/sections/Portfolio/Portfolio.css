@@ -1,0 +1,24 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  text-align: left;
+  margin: 5rem;
+  background-color: var(--cor-cards);
+  border-radius: 4em;
+  border: 2px solid var(--cor-destaque);
+  padding: 3rem 5rem;
+}
+.portfolio-titulo {
+  font-family: var(--fonte-titulo);
+  font-size: var(--fs-h1);
+  color: var(--cor-destaque);
+}
+.portfolio-texto {
+  font-family: var(--fonte-texto);
+  font-size: var(--fs-subtitulo);
+  color: var(--cor-texto);
+  max-width: 700px;
+  margin-top: 1rem;
+}
