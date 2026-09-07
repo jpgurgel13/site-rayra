@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+:root {
+  --cor-background: #0d0f0d;
+  --cor-cards: #171c18;
+
+  --cor-texto: #e8e3d8;
+
+  --cor-botao: #5e7b5c;
+  --cor-hover: #91a88b;
+
+  --cor-destaque: #b79d6c;
+
+  --fonte-titulo: "Cormorant Garamond", serif;
+  --fonte-texto: "Manrope", sans-serif;
+  --fonte-especial: "Marcellus", serif;
+
+  --fs-hero: clamp(3.5rem, 8vw, 5rem);
+  --fs-h1: clamp(2rem, 5vw, 3rem);
+  --fs-h2: 1.5rem;
+  --fs-subtitulo: 1.25rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+}
