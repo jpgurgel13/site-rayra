@@ -12,3 +12,6 @@ body {
   font-family: var(--fonte-texto);
   font-size: var(--fs-body);
 }
+html {
+  scroll-behavior: smooth;
+}
