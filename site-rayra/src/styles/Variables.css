@@ -5,7 +5,8 @@
 :root {
   --cor-background: #0d0f0d;
   --cor-cards: #171c18;
-
+  --cor-borda: #2a332c;
+  --cor-texto-secundario: #a9aaa3;
   --cor-texto: #e8e3d8;
 
   --cor-botao: #5e7b5c;

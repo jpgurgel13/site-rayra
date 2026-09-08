@@ -2,7 +2,9 @@ import "./Header.css";
 function Header() {
   return (
     <header>
-      <h2 className="nav-header-titulo">SIRENNA</h2>
+      <a className="nav-header-titulo" href="#home">
+        SIRENNA
+      </a>
       <nav className="nav-header">
         <ul className="nav-header-lista">
           <li className="nav-header-lista-item">

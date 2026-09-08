@@ -9,7 +9,7 @@
 }
 .footer-texto {
   font-family: var(--fonte-texto);
-  font-size: var(--fs-subtitulo);
+  font-size: var(--fs-small);
   color: var(--cor-texto);
   margin: 0.5rem 0;
 }

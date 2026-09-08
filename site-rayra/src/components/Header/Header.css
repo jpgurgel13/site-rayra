@@ -9,10 +9,11 @@ header {
   font-size: var(--fs-h2);
   color: var(--cor-destaque);
   font-family: var(--fonte-titulo);
+  text-decoration: none;
 }
 .nav-header {
   font-family: var(--fonte-texto);
-  font-size: var(--fs-subtitulo);
+  font-size: var(--fs-small);
   display: flex;
   text-decoration: none;
 }
