@@ -12,13 +12,7 @@
   font-size: var(--fs-h1);
   color: var(--cor-destaque);
 }
-.portfolio-texto {
-  font-family: var(--fonte-texto);
-  font-size: var(--fs-subtitulo);
-  color: var(--cor-texto);
-  max-width: 700px;
-  margin-top: 1rem;
-}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

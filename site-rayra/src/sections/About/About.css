@@ -16,6 +16,20 @@
   font-family: var(--fonte-texto);
   font-size: var(--fs-subtitulo);
   color: var(--cor-texto);
-  max-width: 700px;
+  max-width: 500px;
   margin-top: 1rem;
+}
+.about-foto {
+  max-width: 350px;
+  height: auto;
+  border-radius: 4px;
+  border: 2px solid var(--cor-destaque);
+}
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
 }
