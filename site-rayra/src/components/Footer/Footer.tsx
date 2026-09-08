@@ -1,8 +1,11 @@
+import "./Footer.css";
 function Footer() {
   return (
-    <footer>
-      <p>Site desenvolvido por @jpgurgel13</p>
-      <p>© 2026 Sirenna Tattoo. Todos os direitos reservados</p>
+    <footer className="footer-container" id="footer">
+      <p className="footer-texto">Site desenvolvido por @jpgurgel13</p>
+      <p className="footer-texto">
+        © 2026 Sirenna. Todos os direitos reservados
+      </p>
     </footer>
   );
 }

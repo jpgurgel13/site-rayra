@@ -1,14 +1,12 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-start;
   min-height: 100vh;
   text-align: left;
-  margin: 5rem;
   background-color: var(--cor-cards);
-  border-radius: 4em;
-  border: 2px solid var(--cor-destaque);
-  padding: 3rem 5rem;
+  padding-top: 3rem;
 }
 .contact-titulo {
   font-family: var(--fonte-titulo);
