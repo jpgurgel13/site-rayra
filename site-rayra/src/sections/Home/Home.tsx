@@ -23,11 +23,7 @@ function Home() {
         </span>{" "}
         Ilustração
       </p>
-      <p className="home-texto">
-        Bem-vindo ao meu portfólio! Meu trabalho une a delicadeza do Fine Line à
-        inspiração botânica e à ilustração, criando tatuagens únicas, leves e
-        cheias de significado. Para mim, a arte é a cura do caos.
-      </p>
+      <p className="home-texto">A arte é a cura do caos.</p>
       <p className="home-texto">
         <span className="decorativo" aria-hidden="true">
           ↓{" "}
