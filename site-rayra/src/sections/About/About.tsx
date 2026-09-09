@@ -10,7 +10,7 @@ function About() {
         <img
           className="about-foto"
           src={fotoRayra}
-          alt="Foto da Rayra/tatuadora"
+          alt="Foto da Rayra,tatuadora"
         />
 
         <p className="about-texto">
