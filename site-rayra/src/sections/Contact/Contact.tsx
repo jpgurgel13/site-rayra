@@ -1,8 +1,10 @@
 import "./Contact.css";
+import Divider from "../../components/Divider/Divider";
 function Contact() {
   return (
     <section className="contact-container" id="contact">
       <h2 className="contact-titulo">Contato</h2>
+      <Divider />
       <p className="contact-texto">
         Entre em contato conosco para agendar uma sessão ou tirar dúvidas.
       </p>

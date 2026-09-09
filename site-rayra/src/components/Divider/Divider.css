@@ -1,0 +1,21 @@
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin: 1.5rem auto;
+}
+
+.divider-linha {
+  flex: 1;
+  height: 1px;
+  background-color: var(--cor-verde-musgo);
+  opacity: 0.6;
+}
+
+.divider-simbolo {
+  color: var(--cor-verde-musgo);
+  font-size: 0.9rem;
+  line-height: 1;
+}

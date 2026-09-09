@@ -1,9 +1,11 @@
+import Divider from "../../components/Divider/Divider";
 import "./About.css";
 import fotoRayra from "../../assets/Rayra-photo-alternative.jpg";
 function About() {
   return (
     <section className="about-container" id="about">
       <h2 className="about-titulo">Sobre mim!</h2>
+      <Divider />
       <div className="about-content">
         <img
           className="about-foto"

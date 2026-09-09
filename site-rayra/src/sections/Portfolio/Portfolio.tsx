@@ -1,4 +1,5 @@
 import "./Portfolio.css";
+import Divider from "../../components/Divider/Divider";
 import TattooCards from "../../components/TattooCards/TattooCards";
 
 const tatuagens = [
@@ -12,6 +13,7 @@ function Portfolio() {
   return (
     <section className="portfolio-container" id="portfolio">
       <h2 className="portfolio-titulo">Portfólio</h2>
+      <Divider />
       <div className="portfolio-grid">
         {tatuagens.map((tattoo) => (
           <TattooCards

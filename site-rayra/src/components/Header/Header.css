@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: var(--cor-cards);
+  background-color: var(--cor-fundo-escuro);
 }
 .nav-header-titulo {
   font-size: var(--fs-h2);
@@ -24,8 +24,8 @@ header {
 }
 .nav-header-link {
   text-decoration: none;
-  color: var(--cor-texto);
+  color: var(--cor-texto-claro);
 }
 .nav-header-link:hover {
-  color: var(--cor-hover);
+  color: var(--cor-hover-claro);
 }

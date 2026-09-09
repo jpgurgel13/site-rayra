@@ -7,15 +7,17 @@
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
+  border: 2px solid transparent;
 }
 
 .tattoo-card-imagem:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--cor-verde-musgo);
 }
 
 .tattoo-card-titulo {
-  margin-top: 1rem;
+  margin: 1.75rem 0;
   font-size: var(--fs-subtitulo);
   font-family: var(--fonte-titulo);
   text-align: center;

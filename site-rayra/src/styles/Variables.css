@@ -3,14 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
 
 :root {
-  --cor-background: #0d0f0d;
-  --cor-cards: #171c18;
-  --cor-texto: #e8e3d8;
+  --cor-background: #e6d8c3;
+  --cor-cards: #cdbea8;
+  --cor-texto: #252724;
 
-  --cor-botao: #5e7b5c;
-  --cor-hover: #91a88b;
+  --cor-botao: #b96545;
+  --cor-hover-claro: #d98a68;
+  --cor-hover-escuro: #a14e36;
+  --cor-verde-musgo: #59634a;
+  --cor-destaque: #b96545;
 
-  --cor-destaque: #b79d6c;
+  --cor-fundo-escuro: #252724;
+  --cor-texto-claro: #f1e9dc;
 
   --fonte-titulo: "Cormorant Garamond", serif;
   --fonte-texto: "Manrope", sans-serif;
