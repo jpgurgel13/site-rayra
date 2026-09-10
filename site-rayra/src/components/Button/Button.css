@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  background-color: var(--cor-botao);
+  color: var(--cor-texto-claro);
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  margin: 1rem 0;
+}
+
+.button:hover {
+  background-color: var(--cor-hover-claro);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}

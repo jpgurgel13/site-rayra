@@ -20,13 +20,3 @@
   max-width: 700px;
   margin-top: 1rem;
 }
-.contact-link {
-  font-family: var(--fonte-especial);
-  font-size: var(--fs-h2);
-  color: var(--cor-botao);
-  text-decoration: none;
-  margin-top: 1rem;
-}
-.contact-link:hover {
-  color: var(--cor-hover-escuro);
-}

@@ -1,4 +1,5 @@
 import "./Home.css";
+import Button from "../../components/Button/Button";
 function Home() {
   return (
     <section className="container-home" id="home">
@@ -24,12 +25,7 @@ function Home() {
         Ilustração
       </p>
       <p className="home-texto">A arte é a cura do caos.</p>
-      <p className="home-texto">
-        <span className="decorativo" aria-hidden="true">
-          ↓{" "}
-        </span>
-        Conheça meu trabalho.
-      </p>
+      <Button href="#portfolio">Conheça meu trabalho</Button>
     </section>
   );
 }
