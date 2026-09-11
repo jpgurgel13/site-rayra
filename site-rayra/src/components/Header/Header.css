@@ -29,3 +29,15 @@ header {
 .nav-header-link:hover {
   color: var(--cor-hover-claro);
 }
+@media (max-width: 750px) {
+  header {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .nav-header-lista {
+    gap: 0.75rem;
+  }
+  .nav-header-link {
+    font-size: var(--fs-body);
+  }
+}

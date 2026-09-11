@@ -27,3 +27,8 @@
   --fs-body: 1rem;
   --fs-small: 0.875rem;
 }
+@media (max-width: 750px) {
+  :root {
+    --fs-hero: clamp(3rem, 8vw, 5rem);
+  }
+}

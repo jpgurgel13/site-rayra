@@ -3,10 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  min-height: 100vh;
+  min-height: 100svh;
   text-align: center;
   margin-top: 2rem;
-  padding: 7rem 1.5rem;
+  padding: 3rem 1.5rem;
 }
 
 .about-titulo {
@@ -34,4 +34,12 @@
   justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
+}
+@media (max-width: 750px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-foto {
+    max-width: 75%;
+  }
 }

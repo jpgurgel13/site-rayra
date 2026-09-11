@@ -23,3 +23,13 @@
   font-family: var(--fonte-titulo);
   text-align: center;
 }
+@media (max-width: 750px) {
+  .tattoo-card-imagem {
+    height: 300px;
+  }
+}
+@media (max-width: 440px) {
+  .tattoo-card-imagem {
+    height: 200px;
+  }
+}
