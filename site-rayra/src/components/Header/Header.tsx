@@ -1,9 +1,15 @@
 import "./Header.css";
+import logoSirenna from "../../assets/sr-terracota.png";
+
 function Header() {
   return (
     <header>
       <a className="nav-header-titulo" href="#home">
-        SIRENNA
+        <img
+          className="nav-header-logo"
+          src={logoSirenna}
+          alt="Sirenna Tattoo"
+        />
       </a>
       <nav className="nav-header">
         <ul className="nav-header-lista">
