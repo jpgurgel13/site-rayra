@@ -11,6 +11,9 @@ header {
   font-family: var(--fonte-titulo);
   text-decoration: none;
 }
+.header-button {
+  display: none;
+}
 .nav-header {
   font-family: var(--fonte-texto);
   font-size: var(--fs-small);
@@ -39,10 +42,24 @@ header {
     flex-direction: column;
     gap: 0.75rem;
   }
+  .header-button {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--cor-texto-claro);
+    cursor: pointer;
+  }
   .nav-header-lista {
     gap: 0.75rem;
   }
   .nav-header-link {
     font-size: var(--fs-body);
+  }
+  .nav-header {
+    display: none;
+  }
+  .nav-header.menu-aberto {
+    display: flex;
   }
 }
