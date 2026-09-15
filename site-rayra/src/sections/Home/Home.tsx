@@ -24,7 +24,7 @@ function Home() {
         </span>{" "}
         Ilustração
       </p>
-      <p className="home-texto">A arte é a cura do caos.</p>
+      <p className="home-frase">A arte é a cura do caos.</p>
       <Button href="#portfolio">Conheça meu trabalho</Button>
     </section>
   );
