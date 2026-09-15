@@ -9,11 +9,18 @@ function Contact() {
       <p className="contact-texto">
         Entre em contato comigo para agendar uma sessão ou tirar dúvidas.
       </p>
-      <Button href="https://wa.me/5567998893843">WhatsApp</Button>
+      <Button href="https://wa.me/5567998893843" variante="primario">
+        WhatsApp
+      </Button>
       <p className="contact-texto">
         Meu Instagram é o melhor lugar para ver meu trabalho.
       </p>
-      <Button href="https://www.instagram.com/rayresende._/">Instagram</Button>
+      <Button
+        href="https://www.instagram.com/rayresende._/"
+        variante="secundario"
+      >
+        Instagram
+      </Button>
       <p className="contact-texto">Campo Grande - MS</p>
     </section>
   );

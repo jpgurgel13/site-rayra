@@ -3,15 +3,16 @@ import "./Button.css";
 interface ButtonProps {
   href: string;
   children: React.ReactNode;
+  variante?: "primario" | "secundario";
 }
 
-function Button({ href, children }: ButtonProps) {
+function Button({ href, children, variante = "primario" }: ButtonProps) {
   const externo = href.startsWith("http");
 
   return (
     <a
       href={href}
-      className="button"
+      className={`button button-${variante}`}
       target={externo ? "_blank" : undefined}
       rel={externo ? "noopener noreferrer" : undefined}
     >
